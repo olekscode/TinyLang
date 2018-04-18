@@ -1,6 +1,6 @@
 import org.scalatest.FunSuite
 
-class ExpressionsTest extends FunSuite {
+class TinyLangTest extends FunSuite {
   val machine = new Machine
   val env = Map("x" -> 3, "y" -> 1, "b" -> true) // <= initial environment for the tests
   
